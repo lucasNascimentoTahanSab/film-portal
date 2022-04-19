@@ -167,7 +167,7 @@ a {
   align-items: center;
   gap: 1.5625rem;
   background-color: var(--fp-color-fifth);
-  padding: 1.5625rem;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -389,6 +389,10 @@ a {
   height: 1rem;
 }
 
+.fp--height-60px {
+  height: 3.75rem;
+}
+
 .fp--height-400px {
   height: 25rem;
 }
@@ -458,16 +462,16 @@ a {
     flex-direction: column;
   }
 
+  .fp-section__row--center-xxs {
+    justify-content: center;
+  }
+
   .fp--hide-xxs {
     display: none;
   }
 }
 
 @media screen and (max-width: 17.5rem) {
-  .fp-section__column-xxs {
-    flex-direction: column;
-  }
-
   .fp--height-200px-xxxs {
     height: 12.5rem;
   }

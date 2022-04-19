@@ -1,0 +1,42 @@
+{
+    "theme_color": "#0f0f0f",
+    "background_color": "#0f0f0f",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Pastel com musical",
+    "short_name": "Pastel com musical",
+    "description": "Site \"Pastel com musical\" proposto para a disciplina de Desenvolvimento de       Interfaces Web, da PUC Minas, no primeiro semestre de 2022.",
+    "icons": [
+        {
+            "src": "./src/logo16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/logo32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/logo96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/logo180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/logo300x300.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "./src/logo512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
