@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="Pastel com musical">
+    <meta name="author" content="Lucas Nascimento Tahan Sab">
+    <meta name="description" content="Site &quot;Pastel com musical&quot; proposto para a disciplina de Desenvolvimento de
+      Interfaces Web, da PUC Minas, no primeiro semestre de 2022.">
+    <meta name="keywords" content="Pastel, musical, portal, filmes, cinema, música">
+    <link rel="apple-touch-icon" href="./src/logo180x180.png">
+    <link rel="icon" href="./src/logo16x16.png" sizes="16x16">
+    <link rel="icon" href="./src/logo32x32.png" sizes="32x32">
+    <link rel="icon" href="./src/logo96x96.png" sizes="96x96">
+    <link rel="icon" href="./src/logo180x180.png" sizes="180x180">
+    <link rel="icon" href="./src/logo300x300.png" sizes="300x300">
+    <link rel="icon" href="./src/logo512x512.png" sizes="512x512">
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <title>Pastel com musical</title>
+  </head>
+
+  <body class="fp--blue-bg">
+    <nav class="fp-navigation">
+      <div class="fp-section__row--flex-start fp-section__row--center-xxs">
+        <a href="/">
+          <img class="fp--height-60px" src="./src/logo.svg" alt="Logo do Pastel com musical, apresentando 3 pastéis amarelados com borda e salpicados
+            marrons numa tijela verde musgo escrito: Pastel com musical." title="Pastel com musical">
+        </a>
+      </div>
+      <ul class="fp-section fp-navigation__anchors fp--hide-md">
+        <li class="fp-anchors__item"><a href="#fp-releases">lançamentos</a></li>
+        <li class="fp-anchors__item"><a href="#fp-em-destaque">em destaque</a></li>
+        <li class="fp-anchors__item"><a href="#fp-ultimas-avaliacoes">avaliações</a></li>
+        <li class="fp-anchors__item"><a href="#fp-entevistas-makingof">entrevistas &amp; making of</a></li>
+        <li class="fp-anchors__item"><a href="#fp-novidades">novidades</a></li>
+      </ul>
+      <div class="fp-section__row--flex-end fp--hide-xxs">
+        <div class="fp-search-input">
+          <button>
+            <img src="./src/search.svg" alt="Ícone de uma lupa de bordas pretas indicando campo para busca por filmes.">
+          </button>
+          <input type="text" placeholder="Pesquisar filme">
+          <button>
+            <img src="./src/close.svg" alt="Ícone de um x preto indicando fechamento do campo de pesquisa.">
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="fp-releases" class="fp-section" style="height: 100vh; align-items: center;">
+      <div class="fp-section__inner fp-section__column--gap-25 fp--width-100" style="height: 100;">
+        <div id="fp-film-details" class="fp-section__column--gap-25" style="height: 100%;">
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/detalhes.js"></script>
+  </body>
+
+</html>
