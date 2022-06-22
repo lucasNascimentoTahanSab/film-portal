@@ -36,9 +36,9 @@ function showMovieDetails() {
 function generateNowPlayingMovie() {
   return `
     <article class="fp-section__row--gap-50 fp-section__column-xs">
-      <iframe class="fp--width-100 fp--height-400px fp--height-200px-xxxs"
-        src="${`https://www.youtube.com/embed/${movieVideos.find(video => video.site === 'YouTube').key}`}" frameborder="0" allowfullscreen>
-      </iframe>
+      ${movieVideos.length > 0 ? `<iframe class="fp--width-100 fp--height-400px fp--height-200px-xxxs"
+        src="${`https://www.youtube.com/embed/${movieVideos.find(video => video.site === 'YouTube')?.key}`}" frameborder="0" allowfullscreen>
+      </iframe>` : ''}
       <section class="fp--width-100 fp-section__column--gap-25">
         <header>
           <h3>${movie.title}</h3>
