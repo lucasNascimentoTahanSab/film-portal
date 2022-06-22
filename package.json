@@ -2,8 +2,9 @@
   "name": "film-portal",
   "version": "1.0.0",
   "description": "Site \"Pastel com musical\" proposto para a disciplina de Desenvolvimento de Interfaces Web, da PUC Minas, no primeiro semestre de 2022.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +16,8 @@
     "música"
   ],
   "author": "Lucas Nascimento Tahan Sab",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
